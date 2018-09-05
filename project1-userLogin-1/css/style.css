@@ -1,8 +1,7 @@
-body {
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
     height: 100%;
     background-color: #ccc;
 }
@@ -11,16 +10,14 @@ main {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-   /* background-color: antiquewhite;*/
-    margin-bottom: 20px;
 }
 
-h1 {
-    /*background-color: brown;  */
+h1 { 
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    font-family: 'Courgette', cursive;
 }
 
 #form {
@@ -37,8 +34,7 @@ button a {
 #userName , #userPassword{
    min-width: 50%;
     padding: 10px;
-    /*text-align:center;*/
-    background-color: #ddd;
+    background-color: rgb(240, 231, 231);
     border-radius: 5px;
 }
 
@@ -51,11 +47,13 @@ footer {
     padding: 10px;
     text-align: center;
     margin-top: 20px;
+
 }
 
 .problemSolve {
-    min-width: 50%;
-    padding: 5px;
+    max-width: 60%;
+    padding: 0 ;
+    margin: 0 10px;
 
 }
 
