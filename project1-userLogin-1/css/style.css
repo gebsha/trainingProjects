@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+    height: 100%;
+    background-color: #ccc;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+   /* background-color: antiquewhite;*/
+    margin-bottom: 20px;
+}
+
+h1 {
+    /*background-color: brown;  */
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#form {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+button a {
+    text-decoration: none;
+} 
+
+#userName , #userPassword{
+   min-width: 50%;
+    padding: 10px;
+    /*text-align:center;*/
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+#userPassword {
+    margin-top: 15px;
+}
+footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.problemSolve {
+    min-width: 50%;
+    padding: 5px;
+
+}
+
+/*styles the signIn button*/
+button {
+    width: 50%;
+    padding: 15px;
+    background-color: rgb(241, 87, 87);
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+/*make the ancher link without text-decoration*/
+.linkDecoration {
+    text-decoration: none;
+}
+/*this centers the input[placeholder] text*/
+::-webkit-input-placeholder {
+   text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+:-ms-input-placeholder {  
+   text-align: center; 
+}
