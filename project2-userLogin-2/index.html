@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+  <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title> Login Form </title>
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+      <h1>Login Form</h1>
+      <form action="action_page.php">
+          <!--this is for the  avatar image-->
+          <div class="imgcontainer">
+              <img src="img/img_avatar2.png" alt="avatar" class="avatar" >
+          </div>
+
+          <div class="container">
+              <!--the username input place-->
+              <label for="uname"><b>Username</b></label>
+              <input type="text" name="uname" placeholder="Enter Username" required />
+              <!--the password input place-->
+              <label for="psw"><b>Password</b></label>
+              <input type="password"  name="psw" placeholder="Ener password" required />
+              <!--this is the login button -->
+              <button type="submit">Login</button>
+              <!--this is for if you want to remember you in the next time -->
+              <label>
+                  <input type="checkbox" checked="checked" name="remember">Remember me 
+              </label>
+
+          </div>
+
+          <!--if you forgot your psw you can click here -->
+          <div class="container" style="background-color:#f1f1f1">
+             <button type="button" class="cancelbtn">Cancel</button>
+             <span class="psw">forgot <a href="#">password?</a></span>
+
+          </div>
+      </form>
+
+
+
+  </body>
+</html>
