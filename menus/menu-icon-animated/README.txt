@@ -1,0 +1,1 @@
+This is how we create animated menu icon using HTML and CSS.

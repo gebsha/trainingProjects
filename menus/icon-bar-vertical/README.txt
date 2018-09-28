@@ -1,0 +1,1 @@
+This is how we create vertical icon bar using HTML and CSS.
