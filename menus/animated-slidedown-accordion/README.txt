@@ -1,0 +1,1 @@
+This is how we create animated or slide down accordions using HTML, CSS and JS. 
